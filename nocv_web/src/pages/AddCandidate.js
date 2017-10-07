@@ -47,7 +47,7 @@ import { Button,
                   />
                   <br>
                   </br>
-                  <HelpBlock>How can the potential colleagues reach you in case they have question?</HelpBlock>
+                  <HelpBlock>How can the potential colleagues reach you in case they have questions?</HelpBlock>
                   <FormControl
                     type="text"
                     placeholder="E-mail"
@@ -63,8 +63,6 @@ import { Button,
           </Col>
           <Col xs={12} md={8}>
             <Panel header={titleOctagon}>
-              <br>
-              </br>
               <Field />
               <br>
               </br>
