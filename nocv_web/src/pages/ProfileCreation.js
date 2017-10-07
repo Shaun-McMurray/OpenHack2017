@@ -94,7 +94,7 @@ import {
                 />
               </FormGroup>
             </Form>
-            <Link to="/">
+            <Link to="/EmployerDashboard">
             <Button bsStyle='custom'> Next </Button>
           </Link>
         </Tab>
