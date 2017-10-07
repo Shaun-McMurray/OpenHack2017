@@ -5,37 +5,48 @@ import { Link } from 'react-router-dom';
 export const Field = () => {
   return (
     <div className = "container" style={{width: "30%"}} align={"center"}>
-      <Jumbotron>
-        <FormGroup>
-          <ControlLabel bsSize="large">Work field and skills</ControlLabel>
-        </FormGroup>
+        <HelpBlock>Select hard skills (if applicable)</HelpBlock>
         <DropdownButton title="Programming" id="bg-vertical-dropdown-1">
-          <Col smOffset={1}>
             <Checkbox>
               Java
             </Checkbox>
             <Checkbox>
               MySQL
             </Checkbox>
-          </Col>
-        </DropdownButton>
-        <DropdownButton title="Beauty" id="bg-vertical-dropdown-1">
-          <Col smOffset={1}>
             <Checkbox>
-              Hair dresser
+              React
+            </Checkbox>
+            <Checkbox>
+              Elite Scrumer 2.0
+            </Checkbox>
+        </DropdownButton>
+        <DropdownButton title="Beauty care" id="bg-vertical-dropdown-1">
+            <Checkbox>
+              Manicure
             </Checkbox>
             <Checkbox>
               Make-up artist
             </Checkbox>
-          </Col>
+            <Checkbox>
+              Pedicure
+            </Checkbox>
         </DropdownButton>
-          <FormGroup>
-          <HelpBlock>Press your work field and select your skills.</HelpBlock>
-          <Link to="/PersonalityTest">
-            <Button bsStyle="custom" type="submit">Continue</Button>
-          </Link>
-        </FormGroup>
-      </Jumbotron>
+        <DropdownButton title="Economics" id="bg-vertical-dropdown-1">
+            <Checkbox>
+              Accounting
+            </Checkbox>
+            <Checkbox>
+              Statistics
+            </Checkbox>
+        </DropdownButton>
+        <DropdownButton title="Media" id="bg-vertical-dropdown-1">
+            <Checkbox>
+              Music production
+            </Checkbox>
+            <Checkbox>
+              Movie editing
+            </Checkbox>
+        </DropdownButton>
     </div>
   );
 }

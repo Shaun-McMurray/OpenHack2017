@@ -65,7 +65,6 @@ import { Button,
             <Panel header={titleOctagon}>
               <br>
               </br>
-              <HelpBlock>Select the hard skills your future colleague shall have (if applicable)</HelpBlock>
               <Field />
               <br>
               </br>
