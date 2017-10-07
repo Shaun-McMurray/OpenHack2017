@@ -1,3 +1,7 @@
+.body {
+  width: 100%;
+  height: 100%
+}
 
 .centeredJumbotron {
   margin: 0 auto;
@@ -46,4 +50,9 @@ h4 {
     color: #00ff00;
     font-size: 30px;
     align-content: left;
+}
+
+.octagonMedium {
+  width: 50%;
+  height: 50%
 }

@@ -5,7 +5,8 @@ import { Button,
   Col,
   Image,
   Panel,
-  ControlLabel} from 'react-bootstrap'
+  ControlLabel,
+  HelpBlock} from 'react-bootstrap'
 
   import ReactBootstrapSlider from 'react-bootstrap-slider';
   import '../styles/Stylesheet.css'
@@ -33,7 +34,6 @@ import { Button,
               </Row>
               <Row>
                 <ControlLabel bsSize="large">Communication</ControlLabel>
-
                 <ReactBootstrapSlider
                   orientation="horizontal"
                   reversed={false}
@@ -43,16 +43,19 @@ import { Button,
           </Col>
           <Col xs={12} md={8}>
             <Panel header={titleOctagon}>
-              <Image src="./images/placeholder.png" style={{width: "30%"}}/>
+              <ControlLabel>Holland's Six Personality Types</ControlLabel>
               <div>
-                 <br>
-                 </br>
-                <Image src="./images/placeholder.png" style={{width: "30%"}}/>
+                <Image src="./images/hollands_octagon.jpg" style={{width: "30%"}} thumbnail/>
               </div>
-          </Panel>
+              <br>
+              </br>
+              <div>
+                <ControlLabel>The Enneagram of Personality</ControlLabel>
+              </div>
+              <Image src="./images/nine_enneagram.jpg" style={{width: "30%"}} thumbnail/>
+            </Panel>
           </Col>
         </Row>
       </div>
-
     );
   }
