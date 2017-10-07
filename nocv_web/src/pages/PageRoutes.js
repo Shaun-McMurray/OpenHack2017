@@ -13,8 +13,10 @@ import { Field } from './Field'
 export const PageRoutes = () => (
   <main>
     <Switch>
-      <Route exact path='/' component={Start}/>
-      <Route path='/login' component={Login}/>
+        <Route exact path='/' component={Start}/>
+        <Route path='/login' component={Login}/>
+        <Route path='/field' component={Field}/>
+        <Route path='/profile' component={ProfileCreation}/>
     </Switch>
   </main>
 )

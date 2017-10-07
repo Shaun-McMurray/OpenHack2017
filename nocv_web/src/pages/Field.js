@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Jumbotron, DropdownButton, Checkbox, Col, ControlLabel, FormGroup, HelpBlock, Button} from 'react-bootstrap';
 
-export const Start = () => {
+export const Field = () => {
   return (
     <div className = "container">
       <Jumbotron>

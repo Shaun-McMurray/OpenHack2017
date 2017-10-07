@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Form, FormGroup, ControlLabel, Button, FormControl, Jumbotron } from 'react-bootstrap'
 
+import { Link } from 'react-router-dom';
 import { LoginHeader } from './LoginHeader'
 
 import '../styles/Stylesheet.css'
@@ -31,9 +32,13 @@ export const Login = () => {
               />
             <FormControl.Feedback />
           </FormGroup>
-            <Button className="btn-custom" type="submit">
+            <Button bsStyle="custom" type="submit">
                 Sign in
             </Button>
+            <Link to="/App">
+              <Button bsStyle="custom" type="submit">Cancel</Button>
+            </Link>
+
           </form>
         </Jumbotron>
     </div>

@@ -9,6 +9,8 @@ import {
   Button,
   Image} from 'react-bootstrap'
 
+import { Link } from 'react-router-dom';
+
 import { Header } from './Header'
 
 import '../styles/Stylesheet.css'
@@ -47,7 +49,9 @@ export const ProfileCreation = () => {
                 />
               </FormGroup>
             </Form>
-            <Button bsStyle='custom'> Next </Button>
+            <Link to="/Field">
+              <Button bsStyle='custom'> Next </Button>
+            </Link>
           </Jumbotron>
     </div>
   );

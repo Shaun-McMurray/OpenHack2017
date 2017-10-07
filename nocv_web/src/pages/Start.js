@@ -22,11 +22,13 @@ export const Start = () => {
         <Row className="show-grid" style={{paddingTop: "5%"}}>
           <Col xs={3} md={6}>
             <Link to="/Login">
-            <Button className="btn-extraLarge"> Hire </Button>
+                <Button className="btn-extraLarge"> Hire </Button>
             </Link>
           </Col>
           <Col xs={3} md={6}>
-            <Button className="btn-extraLarge"> Apply </Button>
+              <Link to="/Profile">
+                  <Button className="btn-extraLarge"> Apply </Button>
+              </Link>
           </Col>
         </Row>
     </Grid>
