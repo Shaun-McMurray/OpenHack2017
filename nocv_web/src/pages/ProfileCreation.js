@@ -55,7 +55,7 @@ import {
                   />
                 </FormGroup>
               </Form>
-              <Link to="/Field">
+              <Link to="/HardSkills">
               <Button bsStyle='custom'> Next </Button>
             </Link>
           </Tab>
@@ -94,7 +94,7 @@ import {
                 />
               </FormGroup>
             </Form>
-            <Link to="/HardSkills">
+            <Link to="/">
             <Button bsStyle='custom'> Next </Button>
           </Link>
         </Tab>

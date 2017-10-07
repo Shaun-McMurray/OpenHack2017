@@ -221,14 +221,14 @@ export const PersonalityTest = () => {
     </ListGroupItem>
       <ListGroupItem>
         <ButtonGroup>
-          <Button>
+          <Button bsStyle='custom'>
             Previous
           </Button>
-          <Button>
+          <Button bsStyle='custom'>
             Next
           </Button>
         </ButtonGroup>
-        <Button>
+        <Button bsStyle='custom'>
           Finish
         </Button>
       </ListGroupItem>

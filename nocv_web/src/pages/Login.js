@@ -32,7 +32,7 @@ export const Login = () => {
               />
             <FormControl.Feedback />
           </FormGroup>
-          <Link to="/Login">
+          <Link to="/">
             <Button bsStyle="custom" type="submit">Log in employer</Button>
           </Link>
           <Link to="/EmployeeDashboard">
