@@ -27,36 +27,34 @@ export const PersonalityTest = () => {
               Agree
             </Label>
             {' '}
-            <radioGroup>
-            <Radio name="radioGroup" inline>
+            <Radio name="radioGroup0" inline>
               1
             </Radio>
             {' '}
-            <Radio name="radioGroup" inline>
+            <Radio name="radioGroup0" inline>
               2
             </Radio>
             {' '}
-            <Radio name="radioGroup" inline>
+            <Radio name="radioGroup0" inline>
               3
             </Radio>
             {' '}
-            <Radio name="radioGroup" inline>
+            <Radio name="radioGroup0" inline>
               4
             </Radio>
             {' '}
-            <Radio name="radioGroup" inline>
+            <Radio name="radioGroup0" inline>
               5
             </Radio>
             {' '}
-            <Radio name="radioGroup" inline>
+            <Radio name="radioGroup0" inline>
               6
             </Radio>
             {' '}
-            <Radio name="radioGroup" inline>
+            <Radio name="radioGroup0" inline>
               7
             </Radio>
             {' '}
-          </radioGroup>
             <Label>
               Disagree
             </Label>
@@ -70,36 +68,34 @@ export const PersonalityTest = () => {
               Agree
             </Label>
             {' '}
-            <radioGroup>
-            <Radio name="radioGroup" inline>
+            <Radio name="radioGroup1" inline>
               1
             </Radio>
             {' '}
-            <Radio name="radioGroup" inline>
+            <Radio name="radioGroup1" inline>
               2
             </Radio>
             {' '}
-            <Radio name="radioGroup" inline>
+            <Radio name="radioGroup1" inline>
               3
             </Radio>
             {' '}
-            <Radio name="radioGroup" inline>
+            <Radio name="radioGroup1" inline>
               4
             </Radio>
             {' '}
-            <Radio name="radioGroup" inline>
+            <Radio name="radioGroup1" inline>
               5
             </Radio>
             {' '}
-            <Radio name="radioGroup" inline>
+            <Radio name="radioGroup1" inline>
               6
             </Radio>
             {' '}
-            <Radio name="radioGroup" inline>
+            <Radio name="radioGroup1" inline>
               7
             </Radio>
             '{' '}'
-          </radioGroup>
             <Label>
               Disagree
             </Label>
@@ -111,35 +107,33 @@ export const PersonalityTest = () => {
               <Label>
                 Agree
               </Label>
-              <radioGroup>
-              <Radio name="radioGroup" inline>
+              <Radio name="radioGroup2" inline>
                 1
               </Radio>
               {' '}
-              <Radio name="radioGroup" inline>
+              <Radio name="radioGroup2" inline>
                 2
               </Radio>
               {' '}
-              <Radio name="radioGroup" inline>
+              <Radio name="radioGroup2" inline>
                 3
               </Radio>
               {' '}
-              <Radio name="radioGroup" inline>
+              <Radio name="radioGroup2" inline>
                 4
               </Radio>
               {' '}
-              <Radio name="radioGroup" inline>
+              <Radio name="radioGroup2" inline>
                 5
               </Radio>
               {' '}
-              <Radio name="radioGroup" inline>
+              <Radio name="radioGroup2" inline>
                 6
               </Radio>
               {' '}
-              <Radio name="radioGroup" inline>
+              <Radio name="radioGroup2" inline>
                 7
               </Radio>
-            </radioGroup>
               {' '}
               <Label>
                 Disagree
@@ -153,36 +147,34 @@ export const PersonalityTest = () => {
               Agree
             </Label>
             {' '}
-          <radioGroup>
-            <Radio name="radioGroup" inline>
+            <Radio name="radioGroup3" inline>
               1
             </Radio>
             {' '}
-            <Radio name="radioGroup" inline>
+            <Radio name="radioGroup3" inline>
               2
             </Radio>
             {' '}
-            <Radio name="radioGroup" inline>
+            <Radio name="radioGroup3" inline>
               3
             </Radio>
             {' '}
-            <Radio name="radioGroup" inline>
+            <Radio name="radioGroup3" inline>
               4
             </Radio>
             {' '}
-            <Radio name="radioGroup" inline>
+            <Radio name="radioGroup3" inline>
               5
             </Radio>
             {' '}
-            <Radio name="radioGroup" inline>
+            <Radio name="radioGroup3" inline>
               6
             </Radio>
             {' '}
-            <Radio name="radioGroup" inline>
+            <Radio name="radioGroup3" inline>
               7
             </Radio>
             {' '}
-          </radioGroup>
           <Label>
             Disagree
           </Label>
@@ -195,36 +187,34 @@ export const PersonalityTest = () => {
           Agree
         </Label>
         {' '}
-        <radioGroup>
-        <Radio name="radioGroup" inline>
+        <Radio name="radioGroup4" inline>
           1
         </Radio>
         {' '}
-        <Radio name="radioGroup" inline>
+        <Radio name="radioGroup4" inline>
           2
         </Radio>
         {' '}
-        <Radio name="radioGroup" inline>
+        <Radio name="radioGroup4" inline>
           3
         </Radio>
         {' '}
-        <Radio name="radioGroup" inline>
+        <Radio name="radioGroup4" inline>
           4
         </Radio>
         {' '}
-        <Radio name="radioGroup" inline>
+        <Radio name="radioGroup4" inline>
           5
         </Radio>
         {' '}
-        <Radio name="radioGroup" inline>
+        <Radio name="radioGroup4" inline>
           6
         </Radio>
         {' '}
-        <Radio name="radioGroup" inline>
+        <Radio name="radioGroup4" inline>
           7
         </Radio>
         {' '}
-      </radioGroup>
         <Label>
           Disagree
         </Label>
