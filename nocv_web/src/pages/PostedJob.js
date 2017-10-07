@@ -19,7 +19,7 @@ export default class PostedJob extends Component {
                 </Col>
                 <Col xs={6} md={4} xsPush={5}>
                     <Link to="/Job">
-                        <Button bsStyle='custom'> More Info </Button>
+                        <Button bsStyle='custom'> Edit/See candidates </Button>
                     </Link>
                 </Col>
             </Row>
