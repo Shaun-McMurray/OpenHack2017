@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import { Image, Button, Media, Row, Col } from 'react-bootstrap';
 
 export const MatchComponent = () => {

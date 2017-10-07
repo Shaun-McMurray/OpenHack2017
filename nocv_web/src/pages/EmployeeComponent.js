@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import { Image, Button, Media, Row, Col } from 'react-bootstrap';
+import React from 'react';
+import { Image, Button, Row, Col } from 'react-bootstrap';
 
 export const EmployeeComponent = () => {
     return(

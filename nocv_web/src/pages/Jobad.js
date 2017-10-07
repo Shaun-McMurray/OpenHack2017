@@ -1,12 +1,10 @@
-import React, { Component } from 'react'
-import { Button,
-  Jumbotron,
+import React from 'react'
+import {
   Row,
   Col,
   Image,
   Panel,
-  ControlLabel,
-  HelpBlock} from 'react-bootstrap'
+  ControlLabel} from 'react-bootstrap'
 
   import ReactBootstrapSlider from 'react-bootstrap-slider';
   import '../styles/Stylesheet.css'

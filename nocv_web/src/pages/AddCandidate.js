@@ -1,6 +1,5 @@
-import React, { Component } from 'react'
-import { Button,
-  Jumbotron,
+import React from 'react'
+import {
   Row,
   Col,
   Image,
@@ -10,9 +9,7 @@ import { Button,
   FormGroup,
   FormControl,
   Form} from 'react-bootstrap'
-  import { Link } from 'react-router-dom';
 
-  import ReactBootstrapSlider from 'react-bootstrap-slider';
   import '../styles/Stylesheet.css'
   import {Field} from './Field'
   const titleSkill = (
