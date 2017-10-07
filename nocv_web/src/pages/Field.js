@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export const Field = () => {
   return (
-    <div className = "container">
+    <div className = "container" style={{width: "30%"}} align={"center"}>
       <Jumbotron>
         <FormGroup>
           <ControlLabel bsSize="large">Work field and skills</ControlLabel>
