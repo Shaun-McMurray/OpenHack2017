@@ -3,7 +3,9 @@ import {
     Row,
     Col,
     Image,
-    Panel,} from 'react-bootstrap'
+    Panel,
+    HelpBlock,
+    ControlLabel} from 'react-bootstrap'
 
 import '../styles/Stylesheet.css'
 import { MatchComponent } from './MatchComponent'
@@ -26,17 +28,25 @@ export const EmployeeDashboard = () => {
             <Row>
                 <Col xs={6} md={4}>
                     <Panel header={titleSkill}>
+                      <HelpBlock>Do you want to update your skills?
+                        You are welcome to change them below
+                      </HelpBlock>
                         <Field />
                     </Panel>
                 </Col>
                 <Col xs={12} md={8}>
                     <Panel header={titleOctagon}>
-                        <Image src="./images/hollands_octagon.jpg" style={{width: "30%"}}/>
-                        <div>
-                            <br>
-                            </br>
-                            <Image src="./images/nine_enneagram.jpg" style={{width: "30%"}}/>
-                        </div>
+                      <HelpBlock>Here is your personality according to our tests!</HelpBlock>
+                      <ControlLabel>Holland's Six Personality Types</ControlLabel>
+                      <div>
+                        <Image src="./images/hollands_octagon.jpg" style={{width: "30%"}} thumbnail/>
+                      </div>
+                      <br>
+                      </br>
+                      <div>
+                        <ControlLabel>The Enneagram of Personality</ControlLabel>
+                      </div>
+                      <Image src="./images/nine_enneagram.jpg" style={{width: "30%"}} thumbnail/>
                     </Panel>
                 </Col>
             </Row>
