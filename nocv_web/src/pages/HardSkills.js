@@ -19,7 +19,14 @@ import { Button,
   export const HardSkills = () => {
     return (
       <div className = "container" align={"center"}>
-      <Jumbotron>
+        <Row className="show-grid">
+          <Col xs={6} xsOffset={3}>
+            <div>
+              <Image className="hundredPercentageImage" src="./images/logo.gif"/>
+            </div>
+          </Col>
+        </Row>
+      <Jumbotron className="centeredJumbotron">
         <FormGroup>
           <HelpBlock>Do you have any skills in the following fields?
             If you do, feel free to select those

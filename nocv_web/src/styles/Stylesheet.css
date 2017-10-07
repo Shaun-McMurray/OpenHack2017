@@ -8,6 +8,19 @@
   width: 40%;
   background-color: #C0B3A0
 }
+
+.personalTestJumbotron {
+  margin: 0 auto;
+  width: 70%;
+  background-color: #C0B3A0
+}
+
+.fullJumbotron {
+  margin: 0 auto;
+  width: 100%;
+  background-color: #C0B3A0
+}
+
 .img-hundredPercentageImage {
   width: 130%;
   height: 130%
@@ -18,10 +31,13 @@
   color: white;
 }
 
+
 .btn-extraLarge {
+  background-color: #3F3250;
+  color: white;
   width: 90%;
   height: 100%;
-  font-size: 900%
+  font-size: 800%
 }
 
 h1 {

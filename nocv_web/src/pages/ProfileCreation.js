@@ -5,6 +5,7 @@ import {
   Form,
   FormGroup,
   FormControl,
+  HelpBlock,
   ControlLabel,
   Button,
   Image,
@@ -27,28 +28,33 @@ import {
           </Col>
         </Row>
         <Jumbotron className="centeredJumbotron">
-
           <Tabs defaultActiveKey={1} id="uncontrolled-tab-example">
             <Tab eventKey={1} title="Employee">
               <br>
               </br>
               <Image src="./images/placeholder.png" style={{width: "30%", height: "30%"}}/>
-              <p>Upload Profile picture</p>
               <Form>
-                <FormGroup controlId="formProfileText">
-                  <ControlLabel>Register</ControlLabel>
+                <FormGroup>
+
+                  <HelpBlock>(Press the picture to upload a profile picture)</HelpBlock>
                   <FormControl
                     type="text"
                     placeholder="First name"
                   />
+                </FormGroup>
+                <FormGroup>
                   <FormControl
                     type="text"
                     placeholder="Last name"
                   />
+                </FormGroup>
+                <FormGroup>
                   <FormControl
                     type="text"
                     placeholder="Email"
                   />
+                </FormGroup>
+                <FormGroup>
                   <FormControl
                     type="password"
                     placeholder="Password"
@@ -64,30 +70,39 @@ import {
             <br>
             </br>
             <Image src="./images/placeholder.png" style={{width: "30%", height: "30%"}}/>
-            <p>Upload Profile picture</p>
+            <HelpBlock>(Press the picture to upload a profile picture)</HelpBlock>
             <Form>
-              <FormGroup controlId="formProfileText">
-                <ControlLabel>Register</ControlLabel>
+              <FormGroup>
                 <FormControl
                   type="text"
                   placeholder="First name"
                 />
+              </FormGroup>
+              <FormGroup>
                 <FormControl
                   type="text"
                   placeholder="Last name"
                 />
+              </FormGroup>
+              <FormGroup>
+                <FormControl
+                  type="text"
+                  placeholder="Company"
+                />
+              </FormGroup>
+              <FormGroup>
                 <FormControl
                   type="text"
                   placeholder="Job title"
                 />
+              </FormGroup>
+              <FormGroup>
                 <FormControl
                   type="text"
-                  placeholder="Company name"
+                  placeholder="Email"
                 />
-                <FormControl
-                  type="text"
-                  placeholder="E-mail"
-                />
+              </FormGroup>
+              <FormGroup>
                 <FormControl
                   type="password"
                   placeholder="Password"

@@ -31,39 +31,45 @@ import { Button,
               <Form>
                 <HelpBlock>Enter the following fields</HelpBlock>
 
-                <FormGroup controlId="formProfileText">
+                <FormGroup>
                   <FormControl
                     type="text"
                     placeholder="Job title"
                   />
+                </FormGroup>
+                <FormGroup>
                   <FormControl
                     type="text"
                     placeholder="Location"
                   />
+                </FormGroup>
+                <FormGroup>
                   <FormControl
                     type="text"
                     placeholder="Expiration date"
                   />
                   <br>
                   </br>
+                </FormGroup>
+                <FormGroup>
                   <HelpBlock>How can the potential colleagues reach you in case they have questions?</HelpBlock>
                   <FormControl
                     type="text"
                     placeholder="E-mail"
                   />
+                </FormGroup>
+                <FormGroup>
                   <FormControl
                     type="password"
                     placeholder="Phone number"
                   />
                 </FormGroup>
               </Form>
-
             </Panel>
           </Col>
           <Col xs={12} md={8}>
             <Panel header={titleOctagon}>
               <HelpBlock>Select the hard skills your ideal colleague must have (if any)</HelpBlock>
-
               <Field />
               <br>
               </br>
