@@ -4,18 +4,21 @@ import { Button,
          Row,
          Col,
          Image} from 'react-bootstrap'
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 
 import '../styles/Stylesheet.css'
 
+import Octagon from './Octagon'
+
 export const Start = () => {
   return (
-    <div className="container">
+    <div className="container body">
       <Grid>
         <Row className="show-grid">
           <Col xs={6} xsOffset={3}>
             <div>
-              <Image className="hundredPercentageImage" src="./images/logo.gif"/>
+              <Octagon size="500"/>
+              <Image bsStyle="hundredPercentageImage" src="./images/logo.gif"/>
             </div>
           </Col>
         </Row>

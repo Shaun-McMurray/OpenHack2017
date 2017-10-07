@@ -1,21 +1,30 @@
+.body {
+  width: 100%;
+  height: 100%
+}
 
 .centeredJumbotron {
   margin: 0 auto;
   width: 40%;
   background-color: #C0B3A0
-},
+}
 .img-hundredPercentageImage {
   width: 130%;
   height: 130%
-},
+}
 
 .btn-custom {
   background-color: #3F3250;
   color: white;
-},
+}
 
 .btn-extraLarge {
   width: 90%;
   height: 100%;
   font-size: 900%
+}
+
+.octagonMedium {
+  width: 50%;
+  height: 50%
 }

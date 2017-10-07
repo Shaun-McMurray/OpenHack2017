@@ -15,6 +15,7 @@ export const PageRoutes = () => (
     <Switch>
       <Route exact path='/' component={Start}/>
       <Route path='/login' component={Login}/>
+      <Route path='/start' component={Start}/>  
     </Switch>
   </main>
 )
