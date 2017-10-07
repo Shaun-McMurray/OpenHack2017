@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Form, FormGroup, ControlLabel, Button, FormControl, Jumbotron } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
 
 import { LoginHeader } from './LoginHeader'
 
@@ -35,10 +34,10 @@ export const Login = () => {
           <Link to="/">
             <Button bsStyle="custom" type="submit">Log in employer</Button>
           </Link>
-          <Link to="/Field">
+          <Link to="/EmployeeDashboard">
             <Button bsStyle="custom" type="submit">Log in employee</Button>
           </Link>
-          <Link to="/">
+          <Link to="/Login">
             <Button bsStyle="custom" type="submit">Forget password</Button>
           </Link>
 

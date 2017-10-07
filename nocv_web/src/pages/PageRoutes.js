@@ -6,6 +6,11 @@ import { Login } from './Login'
 import { Field } from './Field'
 import { Jobad } from './Jobad'
 import { PersonalityTest } from './PersonalityTest'
+import { AddCandidate } from './AddCandidate'
+import { EmployeeDashboard } from './EmployeeDashboard'
+import { HardSkills } from './HardSkills'
+
+
 
 
 // The Main component renders one of the three provided
@@ -22,6 +27,10 @@ export const PageRoutes = () => (
         <Route path='/profile' component={ProfileCreation}/>
         <Route path='/jobad' component={Jobad}/>
         <Route path='/personalitytest' component={PersonalityTest}/>
+        <Route path='/employeedashboard' component={EmployeeDashboard}/>
+        <Route path='/addcandidate' component={AddCandidate}/>
+        <Route path='/dashboard' component={EmployeeDashboard}/>
+        <Route path='/hardskills' component={HardSkills}/>
     </Switch>
   </main>
 )

@@ -14,7 +14,6 @@ import {
   Tabs} from 'react-bootstrap'
 
   import { Link } from 'react-router-dom';
-  import { Header } from './Header'
   import '../styles/Stylesheet.css'
   export const ProfileCreation = () => {
 
@@ -56,7 +55,7 @@ import {
                   />
                 </FormGroup>
               </Form>
-              <Link to="/Field">
+              <Link to="/HardSkills">
               <Button bsStyle='custom'> Next </Button>
             </Link>
           </Tab>
@@ -95,7 +94,7 @@ import {
                 />
               </FormGroup>
             </Form>
-            <Link to="/Field">
+            <Link to="/">
             <Button bsStyle='custom'> Next </Button>
           </Link>
         </Tab>
