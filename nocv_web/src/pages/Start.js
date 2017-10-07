@@ -3,7 +3,8 @@ import { Button,
          Grid,
          Row,
          Col,
-         Image} from 'react-bootstrap'
+         Image,
+         Jumbotron} from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
 import '../styles/Stylesheet.css'
@@ -19,18 +20,20 @@ export const Start = () => {
             </div>
           </Col>
         </Row>
+        <Jumbotron className="fullJumbotron">
         <Row className="show-grid" style={{paddingTop: "5%"}}>
           <Col xs={3} md={6}>
             <Link to="/Profile">
-                <Button className="btn-extraLarge"> Register </Button>
+                <Button bsStyle="extraLarge"> Register </Button>
             </Link>
           </Col>
           <Col xs={3} md={6}>
               <Link to="/Login">
-                  <Button className="btn-extraLarge"> Log in </Button>
+                  <Button bsStyle="extraLarge"> Log in </Button>
               </Link>
           </Col>
         </Row>
+      </Jumbotron>
     </Grid>
   </div>
   );
