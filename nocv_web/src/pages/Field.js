@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export const Field = () => {
   return (
-    <div className = "container" style={{width: "30%"}} align={"center"}>
+    <div className = "container" style={{width: "100%"}} >
         <HelpBlock>Select hard skills (if applicable)</HelpBlock>
         <DropdownButton title="Programming" id="bg-vertical-dropdown-1">
             <Checkbox>
