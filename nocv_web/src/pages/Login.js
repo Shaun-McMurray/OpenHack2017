@@ -9,13 +9,10 @@ export const Login = () => {
   return (
     <div className = "container">
       <LoginHeader />
-        <Jumbotron className="centeredJumbotron">
-          <form>
-            <FormGroup>
-              <ControlLabel>Login</ControlLabel>
-            </FormGroup>
-            <FormGroup
-              controlId="formBasicText"
+      <Jumbotron className="centeredJumbotron">
+        <form>
+          <FormGroup
+            controlId="formBasicText"
             >
               <FormControl
                 type="email"
@@ -29,20 +26,20 @@ export const Login = () => {
                 placeholder="Password"
                 onChange={this.handleChange}
               />
-            <FormControl.Feedback />
-          </FormGroup>
-          <Link to="/EmployerDashboard">
+              <FormControl.Feedback />
+            </FormGroup>
+            <Link to="/EmployerDashboard">
             <Button bsStyle="custom" type="submit">Log in employer</Button>
           </Link>
           <Link to="/EmployeeDashboard">
-            <Button bsStyle="custom" type="submit">Log in employee</Button>
-          </Link>
-          <Link to="/Login">
-            <Button bsStyle="custom" type="submit">Forget password</Button>
-          </Link>
+          <Button bsStyle="custom" type="submit">Log in employee</Button>
+        </Link>
+        <Link to="/Login">
+        <Button bsStyle="custom" type="submit">Forget password</Button>
+      </Link>
 
-          </form>
-        </Jumbotron>
-    </div>
-  );
+    </form>
+  </Jumbotron>
+</div>
+);
 }

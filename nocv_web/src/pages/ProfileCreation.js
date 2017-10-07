@@ -34,20 +34,27 @@ import {
               </br>
               <Image src="./images/placeholder.png" style={{width: "30%", height: "30%"}}/>
               <Form>
-                <FormGroup controlId="formProfileText">
+                <FormGroup>
+
                   <HelpBlock>(Press the picture to upload a profile picture)</HelpBlock>
                   <FormControl
                     type="text"
                     placeholder="First name"
                   />
+                </FormGroup>
+                <FormGroup>
                   <FormControl
                     type="text"
                     placeholder="Last name"
                   />
+                </FormGroup>
+                <FormGroup>
                   <FormControl
                     type="text"
                     placeholder="Email"
                   />
+                </FormGroup>
+                <FormGroup>
                   <FormControl
                     type="password"
                     placeholder="Password"
@@ -65,27 +72,37 @@ import {
             <Image src="./images/placeholder.png" style={{width: "30%", height: "30%"}}/>
             <HelpBlock>(Press the picture to upload a profile picture)</HelpBlock>
             <Form>
-              <FormGroup controlId="formProfileText">
+              <FormGroup>
                 <FormControl
                   type="text"
                   placeholder="First name"
                 />
+              </FormGroup>
+              <FormGroup>
                 <FormControl
                   type="text"
                   placeholder="Last name"
                 />
+              </FormGroup>
+              <FormGroup>
+                <FormControl
+                  type="text"
+                  placeholder="Company"
+                />
+              </FormGroup>
+              <FormGroup>
                 <FormControl
                   type="text"
                   placeholder="Job title"
                 />
+              </FormGroup>
+              <FormGroup>
                 <FormControl
                   type="text"
-                  placeholder="Company name"
+                  placeholder="Email"
                 />
-                <FormControl
-                  type="text"
-                  placeholder="E-mail"
-                />
+              </FormGroup>
+              <FormGroup>
                 <FormControl
                   type="password"
                   placeholder="Password"
