@@ -5,7 +5,12 @@ import {
     Image,
     Panel,
     HelpBlock,
-    ControlLabel} from 'react-bootstrap'
+    ControlLabel,
+    Media,
+    Button,
+    ToggleButton,
+    ToggleButtonGroup
+  } from 'react-bootstrap'
 
 import '../styles/Stylesheet.css'
 import { MatchComponent } from './MatchComponent'
@@ -52,12 +57,67 @@ export const EmployeeDashboard = () => {
             </Row>
             <Panel header={titleMatch}>
                 <Row>
-                    <MatchComponent />
-                    <MatchComponent />
-                    <MatchComponent />
+                  <div className="container">
+                      <Row>
+                          <Col xs={6} md={4} xsPull={1}>
+                              <Media.Left>
+                                  <Image src="./images/placeholder.png" style={{width: "40%", height: "40%"}}/>
+                              </Media.Left>
+                          </Col>
+                          <Col xs={6} md={4} xsPull={2}>
+                              <div className="container" align="left"> <h1>IT Senior Service Desk and Project Engineer</h1></div>
+                              <div className="container" align="left"><h3>IT Xperts</h3></div>
+                              <div className="container" align="left"><h2>The ‘Senior Service Desk & Project Engineer’ is
+                                responsible for providing high quality ICT services to internal IT Xpert staff.</h2></div>
+                          </Col>
+                          <Col xs={6} md={4} xsPush={1}>
+                              <h4>Match 89%</h4>
+                              <ToggleButtonGroup type="checkbox" defaultValue={[1]}>
+                                <ToggleButton value={1} bsStyle='custom'>Applied</ToggleButton>
+                              </ToggleButtonGroup>
+                          </Col>
+                      </Row>
+                  </div>
+                  <div className="container">
+                      <Row>
+                          <Col xs={6} md={4} xsPull={1}>
+                              <Media.Left>
+                                  <Image src="./images/placeholder.png" style={{width: "40%", height: "40%"}}/>
+                              </Media.Left>
+                          </Col>
+                          <Col xs={6} md={4} xsPull={2}>
+                              <div className="container" align="left"> <h1>Residential Family Violence Case Worker</h1></div>
+                              <div className="container" align="left"><h3>MIYSS LTD</h3></div>
+                              <div className="container" align="left"><h2>WAYSS has an opportunity for an experienced Residential Case
+                                Worker to join their dedicated team in the Southern Metro region.</h2></div>
+                          </Col>
+                          <Col xs={6} md={4} xsPush={1}>
+                              <h4>Match 72%</h4>
+                              <Button bsStyle='custom'> Apply </Button>
+                          </Col>
+                      </Row>
+                  </div>
+                  <div className="container">
+                      <Row>
+                          <Col xs={6} md={4} xsPull={1}>
+                              <Media.Left>
+                                  <Image src="./images/placeholder.png" style={{width: "40%", height: "40%"}}/>
+                              </Media.Left>
+                          </Col>
+                          <Col xs={6} md={4} xsPull={2}>
+                              <div className="container" align="left"> <h1>Practice Nurse</h1></div>
+                              <div className="container" align="left"><h3>IT Xperts</h3></div>
+                              <div className="container" align="left"><h2>We are looking for an enthusiastic nurse who thrives in
+                                a busy practice environment and wants to utilise their community nursing skills. </h2></div>
+                          </Col>
+                          <Col xs={6} md={4} xsPush={1}>
+                              <h4>Match 53%</h4>
+                              <Button bsStyle='custom'> Apply </Button>
+                          </Col>
+                      </Row>
+                  </div>
                 </Row>
             </Panel>
         </div>
-
     );
 }
