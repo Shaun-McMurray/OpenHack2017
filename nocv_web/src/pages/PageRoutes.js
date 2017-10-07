@@ -6,6 +6,8 @@ import { Login } from './Login'
 import { Field } from './Field'
 import { Jobad } from './Jobad'
 import { PersonalityTest } from './PersonalityTest'
+import {EmployeeDashboard} from "./EmployeeDashboard";
+
 
 
 // The Main component renders one of the three provided
@@ -22,6 +24,8 @@ export const PageRoutes = () => (
         <Route path='/profile' component={ProfileCreation}/>
         <Route path='/jobad' component={Jobad}/>
         <Route path='/personalitytest' component={PersonalityTest}/>
+        <Route path='/dashboard' component={EmployeeDashboard}/>
+
     </Switch>
   </main>
 )
