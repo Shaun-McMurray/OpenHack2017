@@ -10,7 +10,6 @@ import { Button,
          radioGroup,
          Jumbotron,} from 'react-bootstrap'
 import { Link } from 'react-router-dom';
-
 import '../styles/Stylesheet.css'
 
 export const PersonalityTest = () => {
