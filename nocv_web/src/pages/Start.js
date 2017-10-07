@@ -8,8 +8,6 @@ import { Link } from 'react-router-dom'
 
 import '../styles/Stylesheet.css'
 
-import Octagon from './Octagon'
-
 export const Start = () => {
   return (
     <div className="container body">
@@ -17,7 +15,6 @@ export const Start = () => {
         <Row className="show-grid">
           <Col xs={6} xsOffset={3}>
             <div>
-              <Octagon size="500"/>
               <Image bsStyle="hundredPercentageImage" src="./images/logo.gif"/>
             </div>
           </Col>
