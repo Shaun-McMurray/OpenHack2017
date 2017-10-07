@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Form, FormGroup, ControlLabel, Button, FormControl, Jumbotron } from 'react-bootstrap'
 
 import { LoginHeader } from './LoginHeader'
-
+import { Link } from 'react-router-dom';
 import '../styles/Stylesheet.css'
 
 export const Login = () => {
