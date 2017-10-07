@@ -1,241 +1,251 @@
-import React, { Component } from 'react'
-import { Button,
-         Panel,
-         ListGroup,
-         ListGroupItem,
-         Label,
-         Radio,
-         FormGroup,
-         ButtonGroup,
-         radioGroup,
-         Jumbotron,} from 'react-bootstrap'
-import { Link } from 'react-router-dom';
-import '../styles/Stylesheet.css'
+  import React, { Component } from 'react'
+  import { Button,
+           Panel,
+           ListGroup,
+           ListGroupItem,
+           Label,
+           Radio,
+           FormGroup,
+           ButtonGroup,
+           radioGroup,
+           Jumbotron,
+           Row,
+           Col,
+           Image} from 'react-bootstrap'
+  import { Link } from 'react-router-dom';
+  import '../styles/Stylesheet.css'
 
-export const PersonalityTest = () => {
-  return (
-    <div className="container">
-      <Jumbotron>
-    <Panel collapsible defaultExpanded header="Personality test">
-      <ListGroup fill>
-        <ListGroupItem>You often get so lost in thoughts that you ignore or forget your surroundings.</ListGroupItem>
-        <ListGroupItem>
+  export const PersonalityTest = () => {
+    return (
+      <div className="container">
+        <Row className="show-grid">
+          <Col xs={6} xsOffset={3}>
+            <div>
+              <Image className="hundredPercentageImage" src="./images/logo.gif"/>
+            </div>
+          </Col>
+        </Row>
+        <Jumbotron className="personalTestJumbotron">
+      <Panel collapsible defaultExpanded header="Personality test">
+        <ListGroup fill>
+          <ListGroupItem>You often get so lost in thoughts that you ignore or forget your surroundings.</ListGroupItem>
+          <ListGroupItem>
 
-          <FormGroup>
-            <Label>
-              Agree
-            </Label>
-            {' '}
-            <Radio name="radioGroup0" inline>
-              1
-            </Radio>
-            {' '}
-            <Radio name="radioGroup0" inline>
-              2
-            </Radio>
-            {' '}
-            <Radio name="radioGroup0" inline>
-              3
-            </Radio>
-            {' '}
-            <Radio name="radioGroup0" inline>
-              4
-            </Radio>
-            {' '}
-            <Radio name="radioGroup0" inline>
-              5
-            </Radio>
-            {' '}
-            <Radio name="radioGroup0" inline>
-              6
-            </Radio>
-            {' '}
-            <Radio name="radioGroup0" inline>
-              7
-            </Radio>
-            {' '}
-            <Label>
-              Disagree
-            </Label>
-          </FormGroup>
-        </ListGroupItem>
-        <ListGroupItem>You try to respond to your e-mails as soon as possible and cannot stand a messy inbox. </ListGroupItem>
-        <ListGroupItem>
-
-          <FormGroup>
-            <Label>
-              Agree
-            </Label>
-            {' '}
-            <Radio name="radioGroup1" inline>
-              1
-            </Radio>
-            {' '}
-            <Radio name="radioGroup1" inline>
-              2
-            </Radio>
-            {' '}
-            <Radio name="radioGroup1" inline>
-              3
-            </Radio>
-            {' '}
-            <Radio name="radioGroup1" inline>
-              4
-            </Radio>
-            {' '}
-            <Radio name="radioGroup1" inline>
-              5
-            </Radio>
-            {' '}
-            <Radio name="radioGroup1" inline>
-              6
-            </Radio>
-            {' '}
-            <Radio name="radioGroup1" inline>
-              7
-            </Radio>
-            '{' '}'
-            <Label>
-              Disagree
-            </Label>
-          </FormGroup>
-        </ListGroupItem>
-        <ListGroupItem>You enjoy dancing to Iggy Azelea - Mo Bounce</ListGroupItem>
-        <ListGroupItem>
             <FormGroup>
               <Label>
                 Agree
               </Label>
-              <Radio name="radioGroup2" inline>
+              {' '}
+              <Radio name="radioGroup0" inline>
                 1
               </Radio>
               {' '}
-              <Radio name="radioGroup2" inline>
+              <Radio name="radioGroup0" inline>
                 2
               </Radio>
               {' '}
-              <Radio name="radioGroup2" inline>
+              <Radio name="radioGroup0" inline>
                 3
               </Radio>
               {' '}
-              <Radio name="radioGroup2" inline>
+              <Radio name="radioGroup0" inline>
                 4
               </Radio>
               {' '}
-              <Radio name="radioGroup2" inline>
+              <Radio name="radioGroup0" inline>
                 5
               </Radio>
               {' '}
-              <Radio name="radioGroup2" inline>
+              <Radio name="radioGroup0" inline>
                 6
               </Radio>
               {' '}
-              <Radio name="radioGroup2" inline>
+              <Radio name="radioGroup0" inline>
                 7
               </Radio>
               {' '}
               <Label>
                 Disagree
               </Label>
-              </FormGroup>
-        </ListGroupItem>
-        <ListGroupItem>You often feel as if you have to justify yourself to other people.</ListGroupItem>
-        <ListGroupItem>
-          <FormGroup>
+            </FormGroup>
+          </ListGroupItem>
+          <ListGroupItem>You try to respond to your e-mails as soon as possible and cannot stand a messy inbox. </ListGroupItem>
+          <ListGroupItem>
+
+            <FormGroup>
+              <Label>
+                Agree
+              </Label>
+              {' '}
+              <Radio name="radioGroup1" inline>
+                1
+              </Radio>
+              {' '}
+              <Radio name="radioGroup1" inline>
+                2
+              </Radio>
+              {' '}
+              <Radio name="radioGroup1" inline>
+                3
+              </Radio>
+              {' '}
+              <Radio name="radioGroup1" inline>
+                4
+              </Radio>
+              {' '}
+              <Radio name="radioGroup1" inline>
+                5
+              </Radio>
+              {' '}
+              <Radio name="radioGroup1" inline>
+                6
+              </Radio>
+              {' '}
+              <Radio name="radioGroup1" inline>
+                7
+              </Radio>
+              '{' '}'
+              <Label>
+                Disagree
+              </Label>
+            </FormGroup>
+          </ListGroupItem>
+          <ListGroupItem>You enjoy dancing to Iggy Azelea - Mo Bounce</ListGroupItem>
+          <ListGroupItem>
+              <FormGroup>
+                <Label>
+                  Agree
+                </Label>
+                <Radio name="radioGroup2" inline>
+                  1
+                </Radio>
+                {' '}
+                <Radio name="radioGroup2" inline>
+                  2
+                </Radio>
+                {' '}
+                <Radio name="radioGroup2" inline>
+                  3
+                </Radio>
+                {' '}
+                <Radio name="radioGroup2" inline>
+                  4
+                </Radio>
+                {' '}
+                <Radio name="radioGroup2" inline>
+                  5
+                </Radio>
+                {' '}
+                <Radio name="radioGroup2" inline>
+                  6
+                </Radio>
+                {' '}
+                <Radio name="radioGroup2" inline>
+                  7
+                </Radio>
+                {' '}
+                <Label>
+                  Disagree
+                </Label>
+                </FormGroup>
+          </ListGroupItem>
+          <ListGroupItem>You often feel as if you have to justify yourself to other people.</ListGroupItem>
+          <ListGroupItem>
+            <FormGroup>
+              <Label>
+                Agree
+              </Label>
+              {' '}
+              <Radio name="radioGroup3" inline>
+                1
+              </Radio>
+              {' '}
+              <Radio name="radioGroup3" inline>
+                2
+              </Radio>
+              {' '}
+              <Radio name="radioGroup3" inline>
+                3
+              </Radio>
+              {' '}
+              <Radio name="radioGroup3" inline>
+                4
+              </Radio>
+              {' '}
+              <Radio name="radioGroup3" inline>
+                5
+              </Radio>
+              {' '}
+              <Radio name="radioGroup3" inline>
+                6
+              </Radio>
+              {' '}
+              <Radio name="radioGroup3" inline>
+                7
+              </Radio>
+              {' '}
             <Label>
-              Agree
+              Disagree
             </Label>
-            {' '}
-            <Radio name="radioGroup3" inline>
-              1
-            </Radio>
-            {' '}
-            <Radio name="radioGroup3" inline>
-              2
-            </Radio>
-            {' '}
-            <Radio name="radioGroup3" inline>
-              3
-            </Radio>
-            {' '}
-            <Radio name="radioGroup3" inline>
-              4
-            </Radio>
-            {' '}
-            <Radio name="radioGroup3" inline>
-              5
-            </Radio>
-            {' '}
-            <Radio name="radioGroup3" inline>
-              6
-            </Radio>
-            {' '}
-            <Radio name="radioGroup3" inline>
-              7
-            </Radio>
-            {' '}
+          </FormGroup>
+        </ListGroupItem>
+          <ListGroupItem>Draw me like one of your french girls</ListGroupItem>
+        <ListGroupItem>
+        <FormGroup>
+          <Label>
+            Agree
+          </Label>
+          {' '}
+          <Radio name="radioGroup4" inline>
+            1
+          </Radio>
+          {' '}
+          <Radio name="radioGroup4" inline>
+            2
+          </Radio>
+          {' '}
+          <Radio name="radioGroup4" inline>
+            3
+          </Radio>
+          {' '}
+          <Radio name="radioGroup4" inline>
+            4
+          </Radio>
+          {' '}
+          <Radio name="radioGroup4" inline>
+            5
+          </Radio>
+          {' '}
+          <Radio name="radioGroup4" inline>
+            6
+          </Radio>
+          {' '}
+          <Radio name="radioGroup4" inline>
+            7
+          </Radio>
+          {' '}
           <Label>
             Disagree
           </Label>
         </FormGroup>
       </ListGroupItem>
-        <ListGroupItem>Draw me like one of your french girls</ListGroupItem>
-      <ListGroupItem>
-      <FormGroup>
-        <Label>
-          Agree
-        </Label>
-        {' '}
-        <Radio name="radioGroup4" inline>
-          1
-        </Radio>
-        {' '}
-        <Radio name="radioGroup4" inline>
-          2
-        </Radio>
-        {' '}
-        <Radio name="radioGroup4" inline>
-          3
-        </Radio>
-        {' '}
-        <Radio name="radioGroup4" inline>
-          4
-        </Radio>
-        {' '}
-        <Radio name="radioGroup4" inline>
-          5
-        </Radio>
-        {' '}
-        <Radio name="radioGroup4" inline>
-          6
-        </Radio>
-        {' '}
-        <Radio name="radioGroup4" inline>
-          7
-        </Radio>
-        {' '}
-        <Label>
-          Disagree
-        </Label>
-      </FormGroup>
-    </ListGroupItem>
-      <ListGroupItem>
-        <ButtonGroup>
+        <ListGroupItem>
+          <ButtonGroup>
+            <Button bsStyle='custom'>
+              Previous
+            </Button>
+            <Button bsStyle='custom'>
+              Next
+            </Button>
+          </ButtonGroup>
           <Button bsStyle='custom'>
-            Previous
+            Finish
           </Button>
-          <Button bsStyle='custom'>
-            Next
-          </Button>
-        </ButtonGroup>
-        <Button bsStyle='custom'>
-          Finish
-        </Button>
-      </ListGroupItem>
-    </ListGroup>
-    </Panel>
+        </ListGroupItem>
+      </ListGroup>
+      </Panel>
 
-  </Jumbotron>
-  </div>
-);
-  }
+    </Jumbotron>
+    </div>
+  );
+    }

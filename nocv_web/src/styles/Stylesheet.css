@@ -8,6 +8,13 @@
   width: 40%;
   background-color: #C0B3A0
 }
+
+.personalTestJumbotron {
+  margin: 0 auto;
+  width: 60%;
+  background-color: #C0B3A0
+}
+
 .img-hundredPercentageImage {
   width: 130%;
   height: 130%
