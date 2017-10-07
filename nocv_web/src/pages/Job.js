@@ -22,7 +22,7 @@ const titleMatch = (
     <h3>Matches</h3>
 );
 
-export const Job = () => {
+export const Job = ({props}) => {
     return (
         <div className="container">
             <Row>
