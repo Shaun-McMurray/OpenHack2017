@@ -20,7 +20,7 @@ export const ProfileCreation = () => {
       <Header>
       </Header>
           <Jumbotron className="centeredJumbotron">
-          <Image src="./images/placeholder.png" className="thirtyPercentageImage"/>
+          <Image src="./images/placeholder.png" style={{width: "30%", height: "30%"}}/>
           <p>Upload Profile picture</p>
             <Form>
               <FormGroup controlId="formProfileText">
@@ -47,7 +47,7 @@ export const ProfileCreation = () => {
                 />
               </FormGroup>
             </Form>
-            <Button className="btn-custom"> Next </Button>
+            <Button bsStyle='custom'> Next </Button>
           </Jumbotron>
     </div>
   );

@@ -4,6 +4,7 @@ import { Button,
          Row,
          Col,
          Image} from 'react-bootstrap'
+import { Link } from 'react-router-dom';
 
 import '../styles/Stylesheet.css'
 
@@ -20,7 +21,9 @@ export const Start = () => {
         </Row>
         <Row className="show-grid" style={{paddingTop: "5%"}}>
           <Col xs={3} md={6}>
+            <Link to="/Login">
             <Button className="btn-extraLarge"> Hire </Button>
+            </Link>
           </Col>
           <Col xs={3} md={6}>
             <Button className="btn-extraLarge"> Apply </Button>
