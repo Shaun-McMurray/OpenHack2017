@@ -28,9 +28,7 @@
         <Jumbotron className="personalTestJumbotron">
       <Panel collapsible defaultExpanded header="Personality test">
         <ListGroup fill>
-          <ListGroupItem>You often get so lost in thoughts that you ignore or forget your surroundings.</ListGroupItem>
-          <ListGroupItem>
-
+          <ListGroupItem>You often get so lost in thoughts that you ignore or forget your surroundings.
             <FormGroup>
               <Label>
                 Agree
@@ -69,9 +67,7 @@
               </Label>
             </FormGroup>
           </ListGroupItem>
-          <ListGroupItem>You try to respond to your e-mails as soon as possible and cannot stand a messy inbox. </ListGroupItem>
-          <ListGroupItem>
-
+          <ListGroupItem>You try to respond to your e-mails as soon as possible and cannot stand a messy inbox.
             <FormGroup>
               <Label>
                 Agree
@@ -104,23 +100,23 @@
               <Radio name="radioGroup1" inline>
                 7
               </Radio>
-              '{' '}'
+              {' '}
               <Label>
                 Disagree
               </Label>
             </FormGroup>
           </ListGroupItem>
-          <ListGroupItem>You enjoy dancing to Iggy Azelea - Mo Bounce</ListGroupItem>
-          <ListGroupItem>
+          <ListGroupItem>You enjoy dancing to Iggy Azelea - Mo Bounce
               <FormGroup>
                 <Label>
                   Agree
                 </Label>
-                <Radio name="radioGroup2" inline>
+                {' '}
+                <Radio name="radioGroup1" inline>
                   1
                 </Radio>
                 {' '}
-                <Radio name="radioGroup2" inline>
+                <Radio name="radioGroup1" inline>
                   2
                 </Radio>
                 {' '}
@@ -149,8 +145,7 @@
                 </Label>
                 </FormGroup>
           </ListGroupItem>
-          <ListGroupItem>You often feel as if you have to justify yourself to other people.</ListGroupItem>
-          <ListGroupItem>
+          <ListGroupItem>You often feel as if you have to justify yourself to other people.
             <FormGroup>
               <Label>
                 Agree
@@ -189,8 +184,7 @@
             </Label>
           </FormGroup>
         </ListGroupItem>
-          <ListGroupItem>Draw me like one of your french girls</ListGroupItem>
-        <ListGroupItem>
+          <ListGroupItem>Draw me like one of your french girls
         <FormGroup>
           <Label>
             Agree
