@@ -14,7 +14,6 @@ import {
   Tabs} from 'react-bootstrap'
 
   import { Link } from 'react-router-dom';
-  import { Header } from './Header'
   import '../styles/Stylesheet.css'
   export const ProfileCreation = () => {
 

@@ -27,6 +27,7 @@ export const PageRoutes = () => (
         <Route path='/personalitytest' component={PersonalityTest}/>
         <Route path='/employeedashboard' component={EmployeeDashboard}/>
         <Route path='/addcandidate' component={AddCandidate}/>
+        <Route path='/dashboard' component={EmployeeDashboard}/>
     </Switch>
   </main>
 )

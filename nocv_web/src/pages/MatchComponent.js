@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Image, Media, Row, Col } from 'react-bootstrap';
+import { Image, Button, Media, Row, Col } from 'react-bootstrap';
 
 export const MatchComponent = () => {
     return(
@@ -17,6 +17,7 @@ export const MatchComponent = () => {
                 </Col>
                 <Col xs={6} md={4} xsPush={1}>
                     <h4>Match%</h4>
+                    <Button bsStyle='custom'> Accept </Button>
                 </Col>
             </Row>
         </div>

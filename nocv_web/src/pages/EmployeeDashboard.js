@@ -31,11 +31,11 @@ export const EmployeeDashboard = () => {
                 </Col>
                 <Col xs={12} md={8}>
                     <Panel header={titleOctagon}>
-                        <Image src="./images/placeholder.png" style={{width: "30%"}}/>
+                        <Image src="./images/hollands_octagon.jpg" style={{width: "30%"}}/>
                         <div>
                             <br>
                             </br>
-                            <Image src="./images/placeholder.png" style={{width: "30%"}}/>
+                            <Image src="./images/nine_enneagram.jpg" style={{width: "30%"}}/>
                         </div>
                     </Panel>
                 </Col>
