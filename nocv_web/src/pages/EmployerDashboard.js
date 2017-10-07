@@ -7,6 +7,7 @@ import {
 
 import '../styles/Stylesheet.css'
 import { PostedJob } from './PostedJob'
+import { NavBar } from './NavBar'
 
 const titleMatch = (
     <h3>Job Listings</h3>
@@ -15,6 +16,7 @@ const titleMatch = (
 export const EmployerDashboard = () => {
     return (
         <div>
+            <NavBar/>
             <Panel header={titleMatch}>
                 <Row>
                     <Link to="/AddCandidate">
