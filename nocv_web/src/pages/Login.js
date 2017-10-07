@@ -20,24 +20,27 @@ export const Login = () => {
             >
               <FormControl
                 type="email"
-                placeholder="Enter e-mail"
+                placeholder="E-mail"
                 onChange={this.handleChange}
               />
             </FormGroup>
             <FormGroup>
               <FormControl
                 type="password"
-                placeholder="Enter password"
+                placeholder="Password"
                 onChange={this.handleChange}
               />
             <FormControl.Feedback />
           </FormGroup>
-            <Button bsStyle="custom" type="submit">
-                Sign in
-            </Button>
-            <Link to="/App">
-              <Button bsStyle="custom" type="submit">Cancel</Button>
-            </Link>
+          <Link to="/">
+            <Button bsStyle="custom" type="submit">Log in employer</Button>
+          </Link>
+          <Link to="/Field">
+            <Button bsStyle="custom" type="submit">Log in employee</Button>
+          </Link>
+          <Link to="/">
+            <Button bsStyle="custom" type="submit">Forget password</Button>
+          </Link>
 
           </form>
         </Jumbotron>

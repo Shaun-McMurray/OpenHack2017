@@ -21,13 +21,13 @@ export const Start = () => {
         </Row>
         <Row className="show-grid" style={{paddingTop: "5%"}}>
           <Col xs={3} md={6}>
-            <Link to="/Login">
-                <Button className="btn-extraLarge"> Hire </Button>
+            <Link to="/Profile">
+                <Button className="btn-extraLarge"> Register </Button>
             </Link>
           </Col>
           <Col xs={3} md={6}>
-              <Link to="/Profile">
-                  <Button className="btn-extraLarge"> Apply </Button>
+              <Link to="/Login">
+                  <Button className="btn-extraLarge"> Log in </Button>
               </Link>
           </Col>
         </Row>
