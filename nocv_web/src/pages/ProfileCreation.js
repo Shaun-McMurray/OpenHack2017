@@ -7,7 +7,9 @@ import {
   FormControl,
   ControlLabel,
   Button,
-  Image} from 'react-bootstrap'
+  Image,
+  Col,
+  Row} from 'react-bootstrap'
 
 import { Link } from 'react-router-dom';
 
@@ -19,8 +21,13 @@ export const ProfileCreation = () => {
 
   return(
     <div className="container">
-      <Header>
-      </Header>
+      <Row className="show-grid">
+        <Col xs={6} xsOffset={3}>
+          <div>
+            <Image className="hundredPercentageImage" src="./images/logo.gif"/>
+          </div>
+        </Col>
+      </Row>
           <Jumbotron className="centeredJumbotron">
           <Image src="./images/placeholder.png" style={{width: "30%", height: "30%"}}/>
           <p>Upload Profile picture</p>
@@ -29,22 +36,18 @@ export const ProfileCreation = () => {
                 <ControlLabel>Register</ControlLabel>
                 <FormControl
                   type="text"
-                  value=''
                   placeholder="First name"
                 />
                 <FormControl
                   type="text"
-                  value=''
                   placeholder="Last name"
                 />
                 <FormControl
                   type="text"
-                  value=''
                   placeholder="Email"
                 />
                 <FormControl
                   type="text"
-                  value=''
                   placeholder="placeholder"
                 />
               </FormGroup>
