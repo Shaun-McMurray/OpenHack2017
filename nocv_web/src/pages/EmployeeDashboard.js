@@ -80,9 +80,11 @@ export const EmployeeDashboard = () => {
                           </Col>
                       </Row>
                     </Well>
+                    <h3>____________________ 85 % threeshold ____________________</h3>
+
                   </div>
                   <div className="container">
-                      <Row>
+                      <Row style={{boarderTopColor:'#FFF', boarderTopWidth:1}}>
                           <Col xs={6} md={4} xsPull={1}>
                               <Media.Left>
                                   <Image src="./images/placeholder.png" style={{width: "40%", height: "40%"}}/>
