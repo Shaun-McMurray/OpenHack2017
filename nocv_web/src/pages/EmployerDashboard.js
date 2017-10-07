@@ -17,7 +17,9 @@ export const EmployerDashboard = () => {
         <div>
             <Panel header={titleMatch}>
                 <Row>
-                    <Link to="/AddCandidate"><Button bsStyle='custom'> Add Job </Button></Link>
+                    <Link to="/AddCandidate">
+                        <Button bsStyle='custom'> Add Job </Button>
+                    </Link>
                     <PostedJob />
                     <PostedJob />
                     <PostedJob />

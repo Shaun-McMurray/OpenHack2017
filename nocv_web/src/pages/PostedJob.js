@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import ReactDom,  {Link} from 'react-router-dom';
 import { Panel, Button, Row, Col } from 'react-bootstrap';
 
 export const PostedJob = () => {
@@ -13,7 +14,9 @@ export const PostedJob = () => {
                     <div className="container" align="left"><h3>Brief job description</h3></div>
                 </Col>
                 <Col xs={6} md={4} xsPush={5}>
-                    <Button bsStyle='custom'> More Info </Button>
+                    <Link to="/Job">
+                        <Button bsStyle='custom'> More Info </Button>
+                    </Link>
                 </Col>
             </Row>
             </Panel>
