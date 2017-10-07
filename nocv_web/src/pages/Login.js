@@ -1,13 +1,15 @@
-import React, { Component } from 'react';
-import { Form, FormGroup, ControlLabel, Button, FormControl, Jumbotron } from 'react-bootstrap';
+import React, { Component } from 'react'
+import { Form, FormGroup, ControlLabel, Button, FormControl, Jumbotron } from 'react-bootstrap'
+
+import { LoginHeader } from './LoginHeader'
+
+import '../styles/Stylesheet.css'
 
 export const Login = () => {
   return (
     <div className = "container">
-      <div>
-        <img src='./images/logo.gif' alt="logo" />
-      </div>
-        <Jumbotron>
+      <LoginHeader />
+        <Jumbotron className="centeredJumbotron">
           <form>
             <FormGroup>
               <ControlLabel>Login</ControlLabel>
@@ -29,7 +31,7 @@ export const Login = () => {
               />
             <FormControl.Feedback />
           </FormGroup>
-            <Button type="submit">
+            <Button className="btn-custom" type="submit">
                 Sign in
             </Button>
           </form>
