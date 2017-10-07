@@ -95,7 +95,7 @@ import {
                 />
               </FormGroup>
             </Form>
-            <Link to="/Field">
+            <Link to="/HardSkills">
             <Button bsStyle='custom'> Next </Button>
           </Link>
         </Tab>
