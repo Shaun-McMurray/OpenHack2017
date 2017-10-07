@@ -9,7 +9,8 @@ import {
     Media,
     Button,
     ToggleButton,
-    ToggleButtonGroup
+    ToggleButtonGroup,
+    Well
   } from 'react-bootstrap'
 
 import '../styles/Stylesheet.css'
@@ -58,6 +59,7 @@ export const EmployeeDashboard = () => {
             <Panel header={titleMatch}>
                 <Row>
                   <div className="container">
+                    <Well style={{width:"98.5%"}}>
                       <Row>
                           <Col xs={6} md={4} xsPull={1}>
                               <Media.Left>
@@ -73,10 +75,11 @@ export const EmployeeDashboard = () => {
                           <Col xs={6} md={4} xsPush={1}>
                               <h4>Match 89%</h4>
                               <ToggleButtonGroup type="checkbox" defaultValue={[1]}>
-                                <ToggleButton value={1} bsStyle='custom'>Applied</ToggleButton>
+                                <ToggleButton value={1}>Applied</ToggleButton>
                               </ToggleButtonGroup>
                           </Col>
                       </Row>
+                    </Well>
                   </div>
                   <div className="container">
                       <Row>
