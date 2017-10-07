@@ -34,10 +34,6 @@ export const Login = () => {
           <Link to="/EmployeeDashboard">
           <Button bsStyle="custom" type="submit">Log in employee</Button>
         </Link>
-        <Link to="/Login">
-        <Button bsStyle="custom" type="submit">Forget password</Button>
-      </Link>
-
     </form>
   </Jumbotron>
 </div>
