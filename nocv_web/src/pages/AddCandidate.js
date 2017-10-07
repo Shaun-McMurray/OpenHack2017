@@ -63,7 +63,11 @@ import { Button,
           </Col>
           <Col xs={12} md={8}>
             <Panel header={titleOctagon}>
+              <HelpBlock>Select the hard skills your ideal colleague must have (if any)</HelpBlock>
+
               <Field />
+              <br>
+              </br>
               <br>
               </br>
               <HelpBlock>Drop the pins on respectively personality diagram to describe your future colleague's personality</HelpBlock>

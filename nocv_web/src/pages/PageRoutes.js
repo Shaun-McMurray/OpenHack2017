@@ -8,6 +8,8 @@ import { Jobad } from './Jobad'
 import { PersonalityTest } from './PersonalityTest'
 import { AddCandidate } from './AddCandidate'
 import { EmployeeDashboard } from './EmployeeDashboard'
+import { HardSkills } from './HardSkills'
+
 
 
 
@@ -28,6 +30,7 @@ export const PageRoutes = () => (
         <Route path='/employeedashboard' component={EmployeeDashboard}/>
         <Route path='/addcandidate' component={AddCandidate}/>
         <Route path='/dashboard' component={EmployeeDashboard}/>
+        <Route path='/hardskills' component={HardSkills}/>
     </Switch>
   </main>
 )
