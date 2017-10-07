@@ -4,7 +4,6 @@ import * as d3 from 'd3'
 export const Hexagon = ({size}) => {
     return(
       <div>
-        drawHexagon
       </div>
 
     );

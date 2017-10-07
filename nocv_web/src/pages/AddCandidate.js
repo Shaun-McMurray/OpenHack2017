@@ -15,7 +15,6 @@ import { Button,
   import ReactBootstrapSlider from 'react-bootstrap-slider';
   import '../styles/Stylesheet.css'
   import {Field} from './Field'
-
   const titleSkill = (
     <h3>Job</h3>
   );
@@ -71,17 +70,16 @@ import { Button,
               <br>
               </br>
               <HelpBlock>Drop the pins on respectively personality diagram to describe your future colleague's personality</HelpBlock>
-
               <ControlLabel>Holland's Six Personality Types</ControlLabel>
               <div>
-                <Image src="./images/hollands_octagon.jpg" style={{width: "30%"}} thumbnail/>
+                <Image src="./images/Holland-Hexagon-Website1.png" style={{width: "30%"}} thumbnail/>
               </div>
               <br>
               </br>
               <div>
                 <ControlLabel>The Enneagram of Personality</ControlLabel>
               </div>
-              <Image src="./images/nine_enneagram.jpg" style={{width: "30%"}} thumbnail/>
+              <Image src="./images/EnneagramWheel-transparent-bg.png" style={{width: "30%"}} thumbnail/>
             </Panel>
           </Col>
         </Row>
