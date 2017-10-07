@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Form, FormGroup, ControlLabel, Button, FormControl, Jumbotron } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
 
 import { Link } from 'react-router-dom';
 import { LoginHeader } from './LoginHeader'
