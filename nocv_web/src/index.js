@@ -10,6 +10,7 @@ import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
+import 'bootstrap-slider/dist/css/bootstrap-slider.css';
 import './styles/Stylesheet.css'
 
 import App from './App';
