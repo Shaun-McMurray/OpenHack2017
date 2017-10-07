@@ -4,6 +4,9 @@ import { Start } from './Start'
 import { ProfileCreation } from './ProfileCreation'
 import { Login } from './Login'
 import { Field } from './Field'
+import { Jobad } from './Jobad'
+import { PersonalityTest } from './PersonalityTest'
+
 
 // The Main component renders one of the three provided
 // Routes (provided that one matches). Both the /roster
@@ -13,9 +16,12 @@ import { Field } from './Field'
 export const PageRoutes = () => (
   <main>
     <Switch>
-      <Route exact path='/' component={Start}/>
-      <Route path='/login' component={Login}/>
-      <Route path='/start' component={Start}/>  
+        <Route exact path='/' component={Start}/>
+        <Route path='/login' component={Login}/>
+        <Route path='/field' component={Field}/>
+        <Route path='/profile' component={ProfileCreation}/>
+        <Route path='/jobad' component={Jobad}/>
+        <Route path='/personalitytest' component={PersonalityTest}/>
     </Switch>
   </main>
 )

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Form, FormGroup, ControlLabel, Button, FormControl, Jumbotron } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
+import { Link } from 'react-router-dom';
 import { LoginHeader } from './LoginHeader'
 
 import '../styles/Stylesheet.css'
@@ -20,26 +21,28 @@ export const Login = () => {
             >
               <FormControl
                 type="email"
-                placeholder="Enter e-mail"
+                placeholder="E-mail"
                 onChange={this.handleChange}
               />
             </FormGroup>
             <FormGroup>
               <FormControl
                 type="password"
-                placeholder="Enter password"
+                placeholder="Password"
                 onChange={this.handleChange}
               />
             <FormControl.Feedback />
           </FormGroup>
-            <Link to="/Start">
-              <Button className="btn-custom" type="submit">
-                  Back
-              </Button>
-            </Link>
-            <Button className="btn-custom" type="submit">
-                Sign in
-            </Button>
+          <Link to="/">
+            <Button bsStyle="custom" type="submit">Log in employer</Button>
+          </Link>
+          <Link to="/Field">
+            <Button bsStyle="custom" type="submit">Log in employee</Button>
+          </Link>
+          <Link to="/">
+            <Button bsStyle="custom" type="submit">Forget password</Button>
+          </Link>
+
           </form>
         </Jumbotron>
     </div>

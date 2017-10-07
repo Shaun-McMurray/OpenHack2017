@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Jumbotron, DropdownButton, Checkbox, Col, ControlLabel, FormGroup, HelpBlock, Button} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
-export const Start = () => {
+export const Field = () => {
   return (
     <div className = "container">
       <Jumbotron>
@@ -30,9 +31,9 @@ export const Start = () => {
         </DropdownButton>
           <FormGroup>
           <HelpBlock>Press your work field and select your skills.</HelpBlock>
-          <Button type = "submit">
-            Submit
-          </Button>
+          <Link to="/PersonalityTest">
+            <Button bsStyle="custom" type="submit">Continue</Button>
+          </Link>
         </FormGroup>
       </Jumbotron>
     </div>
