@@ -16,7 +16,7 @@ export const Field = () => {
               React
             </Checkbox>
             <Checkbox>
-              Elite Scrumer 2.0
+              C/C++
             </Checkbox>
         </DropdownButton>
         <DropdownButton title="Beauty care" id="bg-vertical-dropdown-1">
