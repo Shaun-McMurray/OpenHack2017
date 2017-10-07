@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import {
     Row,
     Col,
@@ -14,7 +14,6 @@ import {
   } from 'react-bootstrap'
 
 import '../styles/Stylesheet.css'
-import { MatchComponent } from './MatchComponent'
 import { Field } from './Field'
 
 

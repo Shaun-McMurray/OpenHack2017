@@ -4,7 +4,7 @@ import './index.css';
 
 import registerServiceWorker from './registerServiceWorker';
 
-import { render } from 'react-dom';
+
 import { BrowserRouter } from 'react-router-dom';
 
 import './index.css';

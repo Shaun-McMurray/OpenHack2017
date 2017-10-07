@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Button,
   Panel,
   ListGroup,
@@ -6,8 +6,6 @@ import { Button,
   Label,
   Radio,
   FormGroup,
-  ButtonGroup,
-  radioGroup,
   Jumbotron,
   Row,
   Col,

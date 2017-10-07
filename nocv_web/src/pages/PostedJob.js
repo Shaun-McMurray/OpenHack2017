@@ -1,11 +1,8 @@
 import React, {Component} from 'react';
-import ReactDom,  {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Panel, Button, Row, Col } from 'react-bootstrap';
 
 export default class PostedJob extends Component {
-  constructor(props){
-    super(props)
-  }
   render(){
     return(
         <div className="container">

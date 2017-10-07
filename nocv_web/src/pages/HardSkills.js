@@ -1,18 +1,13 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Button,
   Jumbotron,
   Row,
   Col,
   Image,
-  Panel,
-  ControlLabel,
   HelpBlock,
-  FormGroup,
-  FormControl,
-  Form} from 'react-bootstrap'
+  FormGroup} from 'react-bootstrap'
   import { Link } from 'react-router-dom';
 
-  import ReactBootstrapSlider from 'react-bootstrap-slider';
   import '../styles/Stylesheet.css'
   import {Field} from './Field'
 

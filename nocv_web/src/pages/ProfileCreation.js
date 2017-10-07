@@ -1,12 +1,10 @@
-import React, {Component} from 'react'
+import React from 'react'
 import {
   Jumbotron,
-  PageHeader,
   Form,
   FormGroup,
   FormControl,
   HelpBlock,
-  ControlLabel,
   Button,
   Image,
   Col,

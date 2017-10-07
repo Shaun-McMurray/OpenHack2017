@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
-import { Jumbotron, DropdownButton, Checkbox, Col, ControlLabel, FormGroup, HelpBlock, Button} from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import React from 'react';
+import {
+  DropdownButton,
+  Checkbox} from 'react-bootstrap';
 
 export const Field = () => {
   return (
