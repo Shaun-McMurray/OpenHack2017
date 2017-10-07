@@ -5,6 +5,7 @@ import {
   Form,
   FormGroup,
   FormControl,
+  HelpBlock,
   ControlLabel,
   Button,
   Image,
@@ -27,16 +28,14 @@ import {
           </Col>
         </Row>
         <Jumbotron className="centeredJumbotron">
-
           <Tabs defaultActiveKey={1} id="uncontrolled-tab-example">
             <Tab eventKey={1} title="Employee">
               <br>
               </br>
               <Image src="./images/placeholder.png" style={{width: "30%", height: "30%"}}/>
-              <p>Upload Profile picture</p>
               <Form>
                 <FormGroup controlId="formProfileText">
-                  <ControlLabel>Register</ControlLabel>
+                  <HelpBlock>(Press the picture to upload a profile picture)</HelpBlock>
                   <FormControl
                     type="text"
                     placeholder="First name"
@@ -64,10 +63,9 @@ import {
             <br>
             </br>
             <Image src="./images/placeholder.png" style={{width: "30%", height: "30%"}}/>
-            <p>Upload Profile picture</p>
+            <HelpBlock>(Press the picture to upload a profile picture)</HelpBlock>
             <Form>
               <FormGroup controlId="formProfileText">
-                <ControlLabel>Register</ControlLabel>
                 <FormControl
                   type="text"
                   placeholder="First name"
