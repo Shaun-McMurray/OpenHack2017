@@ -7,6 +7,7 @@ import { Button,
          Radio,
          FormGroup,
          ButtonGroup,
+         radioGroup,
          Jumbotron,} from 'react-bootstrap'
 import { Link } from 'react-router-dom';
 
@@ -26,6 +27,7 @@ export const PersonalityTest = () => {
               Agree
             </Label>
             {' '}
+            <radioGroup>
             <Radio name="radioGroup" inline>
               1
             </Radio>
@@ -54,6 +56,7 @@ export const PersonalityTest = () => {
               7
             </Radio>
             {' '}
+          </radioGroup>
             <Label>
               Disagree
             </Label>
@@ -67,6 +70,7 @@ export const PersonalityTest = () => {
               Agree
             </Label>
             {' '}
+            <radioGroup>
             <Radio name="radioGroup" inline>
               1
             </Radio>
@@ -95,6 +99,7 @@ export const PersonalityTest = () => {
               7
             </Radio>
             '{' '}'
+          </radioGroup>
             <Label>
               Disagree
             </Label>
@@ -106,6 +111,7 @@ export const PersonalityTest = () => {
               <Label>
                 Agree
               </Label>
+              <radioGroup>
               <Radio name="radioGroup" inline>
                 1
               </Radio>
@@ -133,6 +139,7 @@ export const PersonalityTest = () => {
               <Radio name="radioGroup" inline>
                 7
               </Radio>
+            </radioGroup>
               {' '}
               <Label>
                 Disagree
@@ -146,6 +153,7 @@ export const PersonalityTest = () => {
               Agree
             </Label>
             {' '}
+          <radioGroup>
             <Radio name="radioGroup" inline>
               1
             </Radio>
@@ -174,6 +182,7 @@ export const PersonalityTest = () => {
               7
             </Radio>
             {' '}
+          </radioGroup>
           <Label>
             Disagree
           </Label>
@@ -186,6 +195,7 @@ export const PersonalityTest = () => {
           Agree
         </Label>
         {' '}
+        <radioGroup>
         <Radio name="radioGroup" inline>
           1
         </Radio>
@@ -214,6 +224,7 @@ export const PersonalityTest = () => {
           7
         </Radio>
         {' '}
+      </radioGroup>
         <Label>
           Disagree
         </Label>
@@ -234,6 +245,7 @@ export const PersonalityTest = () => {
       </ListGroupItem>
     </ListGroup>
     </Panel>
+
   </Jumbotron>
   </div>
 );
